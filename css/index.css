@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .background_color{
+        background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    }
+    .bg_transparent{
+        background: transparent
+    }
+    .text-secondary{
+        color: #217BF4;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+    .text-primary{
+        color: #0A093D;
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 700;
+    }
+    .text-paragraph{
+        color: #656464;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .bg_icon{
+        background: linear-gradient(154.49deg, #5CA1FE 6.61%, #217BF4 89.72%);
+        box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+        border-radius: 24px;
+    }
+    .bg_icon_two{
+        background: linear-gradient(154.49deg, #FF858A 6.61%, #F04148 89.72%);
+        box-shadow: 0px 8px 22px -2px rgba(248, 87, 94, 0.3);
+        border-radius: 24px;
+    }
+    .bg_icon_three{
+        background: linear-gradient(154.49deg, #FFD085 6.61%, #FFAF2E 89.72%);
+        box-shadow: 0px 10px 22px -2px rgba(250, 186, 84, 0.3);
+        border-radius: 24px;
+    }
+    .icon_box_shadow{
+        box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+        border-radius: 14px;
+    }
+    .bg_community{
+        background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    }
+    .btn_hover{
+        background: #217BF4;
+        box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
+        border-radius: 14px;
+    }
+    .footer_form_border{
+        border: 1px solid rgba(255, 255, 255, 0.85);
+        border-radius: 12px;
+    }
+    /* .border_color{
+        border: 4px dashed rgba(255, 175, 46, 1)        
+    } */
+    .out_line{
+        outline: 4px dashed rgba(255, 175, 46, 1)
+    }
+    .member_card{
+        box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+        border-radius: 14px;
+    }
+    .member_card_two{
+        background: #FFFFFF;
+        border: 2px solid rgba(243, 243, 243, 0.5);
+        border-radius: 14px;
+    }
+}
+
