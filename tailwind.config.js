@@ -3,11 +3,10 @@ module.exports = {
   content: ["*.{html,js}"],
   theme: {
     screens:{
-      xsm: '380px',
-      xm: '480px',
+      xsm: '375px',
       sm: '640px',
       md: '768px',
-      lg: '1024px',
+      lg: '1025px',
       xl: '1280px',
       '2xl': '1536px',
     },
@@ -22,7 +21,7 @@ module.exports = {
       center: true,
       padding: {
         DEFAULT: '0',
-       
+       xsm: '',
       },
     
     },
@@ -33,17 +32,20 @@ module.exports = {
       addComponents({
         '.container': {
           maxWidth: '100%',
+          '@screen xsm': {
+            maxWidth: '100%',
+          },
           '@screen sm': {
             maxWidth: '580px',
           },
           '@screen md': {
-            minWidth: '768px',
+            maxWidth: '728px',
           },
           '@screen lg': {
-            minWidth: '1024px',
+            maxWidth: '984px',
           },
           '@screen xl': {
-            minWidth: '1170px',
+            maxWidth: '1170px',
           },
 
         }

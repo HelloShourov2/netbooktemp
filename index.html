@@ -12,16 +12,16 @@
 <body class="font-Inter">
     <div class="background_color">
         <!-- header -->
-        <div class="border-b border-[#217BF4] border-opacity-[0.1]">
+        <div class="xsm:px-4 sm:px-0 border-b border-[#217BF4] border-opacity-[0.1]">
             <div class="container">
                 <div class="">
-                    <div class="py-[22px] flex justify-between ">
-                        <div class="flex items-center gap-[72px]">
+                    <div class="py-3 sm:py-[22px] sm:flex sm:justify-between ">
+                        <div class="justify-center flex sm:items-center gap-[72px] md:gap-[115px]">
                             <div class="flex items-center gap-[6px]">
-                                <a href="#"><img src="img/brand_logo.svg" alt=""></a>
-                                <a href="#"><h1 class="font-Inter font-[600] text-[24px] leading-6">Netbook</h1></a>
+                                <a href="#"><img src="img/brand_logo.svg" alt="" class="w-6 h-6 sm:w-[34px] sm:h-[34px]"></a>
+                                <a href="#"><h1 class="font-Inter font-[600] text-lg sm:text-[24px] leading-6">Netbook</h1></a>
                             </div>
-                            <div>
+                            <div class="hidden sm:block">
                                 <ul class=" flex gap-8 font-Inter font-[400] text-[14px] leading-[14px]">
                                     <li class="font-[600]"><a href="#">Home</a></li>
                                     <li class="flex"><a href="#">Community</a><img src="img/CaretDown.svg" alt=""></li>
@@ -30,15 +30,16 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="hidden md:flex gap-[47px]">
-                            <div class="flex items-center gap-2 border-b-2 border-[#E5E5E5] w-[105px]">
+                        <div class="hidden md:flex md:gap-7 lg:gap-[47px]">
+                            <div class="flex items-center gap-2 border-b-2 border-[#E5E5E5] lg:w-[105px] sm:hidden lg:flex">
                                 <div class="">
                                     <img src="img/MagnifyingGlass.svg" alt="">
                                 </div>
                                 <input type="text" placeholder="Search Here..." class="bg_transparent font-Inter text-[12px] leading-[14px] text-[#686868] outline-none w-full">
                             </div>
-                            <div>
-                                <button class="bg-[#217BF4] py-[18px] px-[44px] rounded-[14px] shadow-[0_7px_22px_-6px_rgba(33,123,244,0.34)] font-Inter font-medium text-[12px] leading-[14px] text-[#FFFFFF]"><a href="#">Log in</a></button>
+                            <div class="md:flex md:items-center">
+                                <button class="bg-[#217BF4] md:py-2 md:px-4 lg:py-[18px] md:rounded-xl
+                                 lg:px-[44px] l:rounded-[14px] shadow-[0_7px_22px_-6px_rgba(33,123,244,0.34)] font-Inter font-medium text-[12px] leading-[14px] text-[#FFFFFF]"><a href="#">Log in</a></button>
                             </div>
                         </div>
                     </div> 
@@ -47,75 +48,75 @@
         </div>
         <!-- header -->
         <!-- hero_section -->
-        <div class="">
+        <div class="xsm:px-4 sm:px-0">
             <div class="container">
-                <div class="flex flex-row sm:gap-4 md:flex md:flex-row md:justify-between pb-[70px] md:pb-0">
-                    <div class="w-full pt-[70px] md:w-6/12 md:py-[125px]">
+                <div class="sm:flex flex-row sm:gap-4 md:flex md:flex-row md:justify-between pb-[70px] md:pb-0">
+                    <div class="w-full pt-12 sm:pt-[70px] md:w-6/12 md:py-[70px] lg:py-[125px]">
                         <div>
-                            <button class="text-[10px] md:text-[12px] leading-3 text-[#217BF4] font-[500] py-[10px] px-[20px] md:py-3 md:px-[30px] bg-[#217BF4] bg-opacity-[0.1]"><a href="#">Netbook community</a></button>
+                            <button class="text-[10px] lg:text-[12px] leading-3 text-[#217BF4] font-[500] py-[10px] px-[20px] lg:py-3 lg:px-[30px] bg-[#217BF4] bg-opacity-[0.1]"><a href="#">Netbook community</a></button>
                         </div>
                         <div class="pt-5">
-                            <h1 class="font-bold text-[32px] leading-[42px] md:text-[56px] md:leading-[66px] text-[#0A093D]">Your Solutions For Community!</h1>
-                            <p class="text-base md:text-[18px] md:leading-7 text-[#656464] pt-3 md:pt-[18px] md:pr-[30px] md:w-11/12">More than 2 billion people in over countries use socibook to stay in touch with friends & family.</p>
+                            <h1 class="font-bold text-[24px] leading-8 sm:text-[32px] sm:leading-[42px] md:text-[40px] md:leading-[46px] lg:text-[56px] lg:leading-[66px] text-[#0A093D]">Your Solutions For <br> Community!</h1>
+                            <p class="text-sm sm:text-base lg:text-[18px] md:leading-7 text-[#656464] pt-2 sm:pt-3 lg:pt-[18px] lg:pr-[30px] lg:w-11/12">More than 2 billion people in over countries use socibook to stay in touch with friends & family.</p>
                         </div>
-                        <div class="flex gap-[18px] pt-7 md:pt-[42px]">
+                        <div class="flex gap-3 sm:gap-[18px] pt-4 sm:pt-7 md:pt-[42px]">
                             <div>
-                                <button class="text-[14px] leading-[14px] text-white py-[16px] px-8 md:py-6 md:px-[42px] bg-[#217BF4] rounded-[14px] shadow-[0_7px_22px_-6px_rgba(33,123,244,0.34)] border border-[transparent] hover:bg_transparent hover:text-[#217BF4] hover:border hover:border-[#217BF4] hover:border-opacity-[0.5] hover:shadow-none"><a href="#">About More</a></button>
+                                <button class="text-xs sm:text-[14px] leading-[14px] text-white md:py-[16px] px-3 py-2 sm:px-4 sm:py-3 md:px-8 lg:py-6 lg:px-[42px] bg-[#217BF4] rounded-[14px] shadow-[0_7px_22px_-6px_rgba(33,123,244,0.34)] border border-[transparent] hover:bg_transparent hover:text-[#217BF4] hover:border hover:border-[#217BF4] hover:border-opacity-[0.5] hover:shadow-none"><a href="#">About More</a></button>
                             </div>
                             <div>
-                                <button class="text-[14px] leading-[14px] text-[#217BF4] py-[16px] px-8 md:py-6 md:px-[42px] rounded-[14px] border border-[#217BF4] border-opacity-[0.5] hover:bg-[#217BF4] hover:text-white"><a href="#">Invite Friend</a></button>
+                                <button class="text-xs sm:text-[14px] leading-[14px] text-[#217BF4] py-2 px-3 sm:px-4 sm:py-3 md:py-[16px] md:px-8 lg:py-6 lg:px-[42px] rounded-[14px] border border-[#217BF4] border-opacity-[0.5] hover:bg-[#217BF4] hover:text-white"><a href="#">Invite Friend</a></button>
                             </div>
                         </div>
                     </div>
-                    <div class="sm:w-3/4 md:w-6/12 sm:self-center">
+                    <div class="sm:w-3/4 sm:pt-[70px] md:w-[45%] lg:w-6/12 sm:self-center md:self-start md:pt-[75px] lg:pt-8">
                         <img src="img/Iamge.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
+        <!-- hero_section -->
     </div>
-    <!-- hero_section -->
     <!-- what_netbook_section -->
-    <div class="pt-[70px] md:pt-[130px] pb-12">
+    <div class="xsm:px-4 sm:px-0 py-12 sm:py-[70px] lg:py-[125px]">
         <div class="container">
-            <div class="md:flex items-center md:justify-between">
-                <div class="md:w-[410px]">
-                    <div class="pr-[70px] md:pr-0">
-                        <h6 class="font-medium text-[18px] leading-[18px] text-[#217BF4]">Whats Netboks?</h6>
-                        <h1 class="text-[#0A093D] sm:text-[28px] sm:leading-[38px] md:text-[36px] md:leading-[48px] font-bold pt-[10px]">Why Join to Netbook Social Network?</h1>
-                        <p class="text-[#656464] text-[16px] leading-7 pt-4 pr-10 md:pr-0">Recent surveys have indicated that small businesses recognize the need they have to connect with consumer.</p>
+            <div class="sm:flex items-center md:justify-between">
+                <div class="md:w-3/6 lg:w-[410px]">
+                    <div class="pr-0">
+                        <h6 class="font-medium text-xs sm:text-base md:text-[18px] leading-[18px] text-[#217BF4]">Whats Netbooks?</h6>
+                        <h1 class="text-[#0A093D] text-xl sm:text-[24px] sm:leading-[36px] lg:text-[36px] l:leading-[48px] md:text-[28px] md:leading-[38px] font-bold pt-1 sm:pt-2 lg:pt-[10px]">Why Join to Netbook <br> Social Network?</h1>
+                        <p class="text-[#656464] text-sm sm:text-sm md:text-[16px] leading-7 sm:pt-2 md:pt-3 lg:pt-4 pr-10 md:pr-0">Recent surveys have indicated that small businesses recognize the need they have to connect with consumer.</p>
                     </div>
-                    <div class="pt-9">
+                    <div class="pt-3 sm:pt-3 md:pt-5 lg:pt-9">
                         <div class="flex items-center">
                             <div class="bg-primary bg-opacity-[0.1] p-[5px] rounded-full">
                                 <img src="img/dot.svg" alt="">
                             </div>
-                            <h6 class="pl-3 text-[#171648] text-[18px] leading-[18px] font-medium">Groups</h6>
+                            <h6 class="pl-3 text-[#171648] text-sm md:text-[18px] leading-[18px] font-medium">Groups</h6>
                         </div>
-                        <div class="flex items-center py-4">
+                        <div class="flex items-center py-2 lg:py-4">
                             <div class="bg-primary bg-opacity-[0.1] p-[5px] rounded-full">
                                 <img src="img/dot.svg" alt="">
                             </div>
-                            <h6 class="pl-3 text-[#171648] text-[18px] leading-[18px] font-medium">Messages</h6>
+                            <h6 class="pl-3 text-[#171648] text-sm md:text-[18px] leading-[18px] font-medium">Messages</h6>
                         </div>
                         <div class="flex items-center">
                             <div class="bg-primary bg-opacity-[0.1] p-[5px] rounded-full">
                                 <img src="img/dot.svg" alt="">
                             </div>
-                            <h6 class="pl-3 text-[#171648] text-[18px] leading-[18px] font-medium">Share</h6>
+                            <h6 class="pl-3 text-[#171648] text-sm md:text-[18px] leading-[18px] font-medium">Share</h6>
                         </div>
                     </div>
                 </div>
-                <div class="hidden md:flex md:items-center md:gap-7">
+                <div class="pt-10 sm:pt-0 md:w-3/6 lg:w-[410px] sm:flex sm:items-center sm:gap-3 md:gap-4 lg:gap-7">
                     <div class="">
-                        <img src="img/img_one.png" alt="" class="rounded-[14px]">
+                        <img src="img/img_one.png" alt="" class="rounded-[14px] w-full">
                     </div>
-                    <div class="">
+                    <div class="pt-6 sm:pt-0">
                         <div>
-                            <img src="img/img_2.png" alt="" class="rounded-[14px]">
+                            <img src="img/img_2.png" alt="" class="rounded-[14px] w-full">
                         </div>
-                        <div class="pt-8">
-                            <img src="img/img_3.png" alt="" class="rounded-[14px]">
+                        <div class="pt-6 sm:pt-3 md:pt-4 lg:pt-8">
+                            <img src="img/img_3.png" alt="" class="rounded-[14px] w-full">
                         </div>
                     </div>
                 </div>
@@ -124,21 +125,21 @@
     </div>
     <!-- what_netbook_section -->
     <!-- rating-section -->
-    <div>
+    <div class="xsm:px-4 sm:px-0">
         <div class="container">
-            <div class="flex flex-col pt-[22px] md:pb-[70px] md:py-[84px] md:flex md:flex-row md:justify-between">
-                <div class="flex gap-6 order-2 md:order-1">
-                    <div class="w-[50%] md:w-[336px] border border-[#92A5B824] bg-secondary rounded-[14px] shadow-[0_26px_49px_rgba(146, 165, 184, 0.14)] py-[20px] pl-[32px] pr-[20px] flex items-center">
+            <div class="flex flex-col lg:flex lg:flex-row md:justify-between lg:gap-10">
+                <div class="pt-10 sm:pt-10 lg:pt-0 sm:flex sm:justify-between gap-6 order-2 lg:order-1">
+                    <div class="sm:w-[50%] md:w-full border border-[#92A5B824] bg-secondary rounded-[14px] shadow-[0_26px_49px_rgba(146, 165, 184, 0.14)] py-[20px] pl-[32px] pr-[20px] flex items-center">
                         <div class="">
                             <div class="flex items-center gap-[10px]">
                                 <div>
                                     <img src="img/star.svg" alt="">
                                 </div>
                                 <div>
-                                    <h6 class="font-medium text-[20px] leading-5 text-[#0A093D]">4.8 Rating</h6>
+                                    <h6 class="font-medium text-[18px] lg:text-[20px] leading-5 text-[#0A093D]">4.8 Rating</h6>
                                 </div>
                             </div>
-                            <div class="flex items-center pt-7">
+                            <div class="flex items-center pt-4 lg:pt-7">
                                 <div class="ml-[-18px]">
                                     <img src="img/sm_1.svg" alt="" class="overflow-hidden">
                                 </div>
@@ -148,50 +149,50 @@
                                 <div class="ml-[-34px]">
                                     <img src="img/sm_3.svg" alt="">
                                 </div>
-                                <div class="font-medium text-[16px] leading-[18px] text-[#217BF4] mt-[-8px]">
+                                <div class="font-medium text-sm sm:text-[16px] leading-[18px] text-[#217BF4] mt-[-8px]">
                                     <h3>+836k <span class="text-[#5D5B70]">Members</span></h3>
                                 </div>
                             </div>
-                            <div class="pt-3 text-[16px] leading-[26px]">
+                            <div class="md:pt-3 text-sm sm:text-[16px] leading-[26px]">
                                 <p class="text-[#8C8C8C]">More than 2 billion we people over countries use socibooks we to stay in touch with friends.</p>
-                                <button class="text-[#4A4A56] font-medium pt-10 hover:text-[#217BF4]"><a href="#">Join Our Community <span class="font-normal text-[10px] leading-[10px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
+                                <button class="text-xs sm:text-[16px] text-[#4A4A56] font-medium pt-5 lg:pt-10 hover:text-[#217BF4]"><a href="#">Join Our Community <span class="font-normal text-[10px] leading-[10px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
                             </div>
                         </div>
                     </div>
-                    <div class="w-[50%] md:w-[336px] border border-[#92A5B824] bg-secondary rounded-[14px] shadow-[0_26px_49px_rgba(146, 165, 184, 0.14)] py-[20px] pl-[32px] pr-[20px] flex items-center">
+                    <div class="mt-10 sm:mt-0 sm:w-[50%] md:w-full border border-[#92A5B824] bg-secondary rounded-[14px] shadow-[0_26px_49px_rgba(146, 165, 184, 0.14)] py-[20px] pl-[32px] pr-[20px] flex items-center">
                         <div class="">
                             <div class="flex items-center gap-[10px]">
                                 <div>
                                     <img src="img/Trophy.svg" alt="">
                                 </div>
                                 <div>
-                                    <h6 class="font-medium text-[20px] leading-5 text-[#0A093D]">Awwwards</h6>
+                                    <h6 class="font-medium text-[18px] lg:text-[20px] leading-5 text-[#0A093D]">Awwwards</h6>
                                 </div>
                             </div>
-                            <div class="flex items-center pt-7">
+                            <div class="flex items-center pt-4 lg:pt-7">
                                 <div class="ml-[-14px]">
                                     <img src="img/git.svg" alt="" class="overflow-hidden">
                                 </div>
-                                <div class="font-medium text-[16px] leading-[18px] text-[#5D5B70] mt-[-8px]">
+                                <div class="font-medium sm:text-[16px] leading-[18px] text-[#5D5B70] mt-[-8px]">
                                     <h3>Best of <span class="text-[#217BF4] font-medium">2021</span> on Github</h3>
                                 </div>
                             </div>
-                            <div class="pt-3 text-[16px] leading-[26px]">
+                            <div class="md:pt-3 text-sm sm:text-[16px] leading-[26px]">
                                 <p class="text-[#8C8C8C]">More than 2 billion we people over countries use socibooks we to stay in touch with friends.</p>
-                                <button class="text-[#4A4A56] font-medium pt-10 hover:text-[#217BF4]"><a href="#">Go To Awards <span class="font-normal text-[10px] leading-[10px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
+                                <button class="text-xs sm:text-[16px] text-[#4A4A56] font-medium sm:pt-5 lg:pt-10 hover:text-[#217BF4]"><a href="#">Go To Awards <span class="font-normal text-[10px] leading-[10px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="order-1 flex">
-                    <div class="py-[70px] pr-8 text-left md:px-0 md:py-0 w-3/4 md:w-[380px]">
-                        <div>
-                            <h6 class="font-medium text-[18px] leading-[18px] text-[#217BF4]">Our Achievement</h6>
-                            <h1 class="font-bold sm:text-[28px] leading-9 md:text-[36px] md:leading-[48px] text-[#0A093D] pt-[10px] pb-[18px]">We are Connecting You The Digital Life.</h1>
-                            <p class="text-[16px] leading-7 text-[#656464]">The scope the Social Media becomes crucial Is helps the business to directly engage with their needs and wants.</p>
+                <div class="order-1 flex lg:justify-end w-full sm:pb-10 lg:pb-0">
+                    <div class="sm:flex justify-between lg:block text-left lg:px-0 lg:py-0 w-full lg:w-[380px]">
+                        <div class="w-full sm:w-[52%] lg:w-full">
+                            <h6 class="font-medium text-xs sm:text-base md:text-[18px] leading-[18px] text-[#217BF4]">Our Achievement</h6>
+                            <h1 class="font-bold text-xl sm:text-[24px] md:text-[28px] leading-9 lg:text-[36px] lg:leading-[48px] text-[#0A093D] pb-[8px] pt-[6px] lg:pt-[10px] lg:pb-[18px]">We are Connecting You <br> The Digital Life.</h1>
+                            <p class="text-sm sm:text-base md:text-[16px] leading-7 text-[#656464]">The scope the Social Media becomes crucial Is helps the business to directly engage with their needs and wants.</p>
                         </div>
-                        <div class="pt-[24px] md:pt-[38px]">
-                            <button class="text-[14px] leading-[14px] bg-primary py-[16px] px-7 md:py-[22px] md:px-[38px] text-white rounded-[14px] hover:bg-secondary hover:text-[#217BF4] hover:border hover:border-[#217BF4] hover:border-opacity-[0.5]"><a href="#">Discover me <span class="font-normal text-[14px] leading-[14px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
+                        <div class="pt-3 sm:pt-[24px] md:pt-[38px] flex items-center sm:justify-center sm:w-4/12 lg:w-full lg:justify-start">
+                            <button class="text-xs sm:text-[14px] leading-[14px] bg-primary py-3 sm:py-[16px] px-5 sm:px-7 lg:py-[22px] lg:px-[38px] text-white rounded-[14px] border border-transparent hover:bg-secondary hover:text-[#217BF4] hover:border hover:border-[#217BF4] hover:border-opacity-[0.5]"><a href="#">Discover me <span class="font-normal text-[14px] leading-[14px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
                         </div>
                     </div>
                 </div>
@@ -200,72 +201,72 @@
     </div>
     <!-- rating-section -->
     <!-- our-community-section -->
-    <div class="pt-[55px] bg_community">
+    <div class="xsm:px-4 sm:px-0 pt-12 sm:py-[70px] lg:pt-[125px] bg_community">
         <div class="container">
-            <div class="py-[60px] md:flex md:flex-col">
+            <div class="lg:flex lg:flex-col">
                 <div class="flex flex-col items-center text-center">
-                    <h6 class="text-secondary">Our Community</h6>
-                    <h1 class="sm:text-[28px] leading-7 text-primary pt-2 pb-3 md:pb-5">Community Main Feature</h1>
-                    <p class="text-paragraph leading-7">The wise man therefore always holds in these matters <br> to this principle of selection.</p>
+                    <h6 class="text-secondary text-xs sm:text-base md:text-[18px]">Our Community</h6>
+                    <h1 class="text-xl sm:text-[24px] md:text-[28px] leading-7 text-primary lg:text-[36px] pt-2 pb-3 lg:pb-5">Community Main Feature</h1>
+                    <p class="text-paragraph sm:text-base text-sm leading-7">The wise man therefore always holds in these matters to this principle of selection.</p>
                 </div>
-                <div class="py-8 md:py-16">
-                    <div class="flex gap-7 md:gap-11">
-                        <div class="flex icon_box_shadow gap-[14px] p-4 md:pt-10 md:pl-10 md:pb-11 md:pr-16 md:gap-9 bg-secondary">
-                            <div class="bg_icon flex items-center h-[40px] p-[14px] md:py-5 md:px-4 rounded-[24px] md:w-[66px] md:h-[66px]">
+                <div class="pt-8 md:pt-11 lg:pt-16">
+                    <div class="sm:flex gap-7 md:gap-11">
+                        <div class="flex icon_box_shadow gap-[14px] p-4 lg:pt-10 lg:pl-10 lg:pb-11 lg:pr-16 lg:gap-9 bg-secondary">
+                            <div class="bg_icon flex shrink-0 items-center w-10 h-10 p-3 lg:py-5 lg:px-4 rounded-[24px] lg:w-[66px] lg:h-[66px]">
                                 <img src="img/Icon.svg" alt="">
                             </div>
                             <div>
-                                <h1 class="font-semibold text-[18px] leading-5 md:text-[24px] md:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
-                                <p class="text-[#656464] text-[14px] md:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
+                                <h1 class="font-semibold text-[18px] leading-5 lg:text-[24px] lg:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
+                                <p class="text-[#656464] text-[14px] lg:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
                             </div>
                         </div>
-                        <div class="flex icon_box_shadow gap-[14px] p-4 md:pt-10 md:pl-10 md:pb-11 md:pr-16 md:gap-9 bg-secondary">
-                            <div class="bg_icon_two flex items-center h-[40px] p-[14px] md:py-5 md:px-4 rounded-[24px] md:w-[66px] md:h-[66px]">
+                        <div class="mt-5 sm:mt-0 flex icon_box_shadow gap-[14px] p-4 lg:pt-10 lg:pl-10 lg:pb-11 lg:pr-16 lg:gap-9 bg-secondary">
+                            <div class="bg_icon_two flex shrink-0 items-center w-10 h-10 p-3 lg:py-5 lg:px-4 rounded-[24px] lg:w-[66px] lg:h-[66px]">
                                 <img src="img/Icon2.svg" alt="">
                             </div>
                             <div>
-                                <h1 class="font-semibold text-[18px] leading-5 md:text-[24px] md:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
-                                <p class="text-[#656464] text-[14px] md:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
+                                <h1 class="font-semibold text-[18px] leading-5 lg:text-[24px] lg:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
+                                <p class="text-[#656464] text-[14px] lg:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
                             </div>
                         </div>
                     </div>
-                    <div class="flex gap-7 py-7 md:gap-11">
-                        <div class="flex icon_box_shadow gap-[14px] p-4 md:pt-10 md:pl-10 md:pb-11 md:pr-16 md:gap-9 bg-secondary">
-                            <div class="bg_icon_three flex items-center h-[40px] p-[14px] md:py-5 md:px-4 rounded-[24px] md:w-[66px] md:h-[66px]">
+                    <div class="mt-5 sm:mt-0 sm:flex gap-7 sm:py-7 md:gap-11">
+                        <div class="flex icon_box_shadow gap-[14px] p-4 lg:pt-10 lg:pl-10 lg:pb-11 lg:pr-16 lg:gap-9 bg-secondary">
+                            <div class="bg_icon_three flex shrink-0 items-center w-10 h-10 p-3 lg:py-5 lg:px-4 rounded-[24px] lg:w-[66px] lg:h-[66px]">
                                 <img src="img/Icon3.svg" alt="">
                             </div>
                             <div>
-                                <h1 class="font-semibold text-[18px] leading-5 md:text-[24px] md:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
-                                <p class="text-[#656464] text-[14px] md:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
+                                <h1 class="font-semibold text-[18px] leading-5 lg:text-[24px] lg:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
+                                <p class="text-[#656464] text-[14px] lg:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
                             </div>
                         </div>
-                        <div class="flex icon_box_shadow gap-[14px] p-4 md:pt-10 md:pl-10 md:pb-11 md:pr-16 md:gap-9 bg-secondary">
-                            <div class="bg_icon flex items-center h-[40px] p-[14px] md:py-5 md:px-4 rounded-[24px] md:w-[66px] md:h-[66px]">
+                        <div class="mt-5 sm:mt-0 flex icon_box_shadow gap-[14px] p-4 lg:pt-10 lg:pl-10 lg:pb-11 lg:pr-16 lg:gap-9 bg-secondary">
+                            <div class="bg_icon flex shrink-0 items-center w-10 h-10 p-3 lg:py-5 lg:px-4 rounded-[24px] lg:w-[66px] lg:h-[66px]">
                                 <img src="img/Icon4.svg" alt="">
                             </div>
                             <div>
-                                <h1 class="font-semibold text-[18px] leading-5 md:text-[24px] md:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
-                                <p class="text-[#656464] text-[14px] md:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
+                                <h1 class="font-semibold text-[18px] leading-5 lg:text-[24px] lg:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
+                                <p class="text-[#656464] text-[14px] lg:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
                             </div>
                         </div>
                     </div>
-                    <div class="flex gap-7 md:gap-11">
-                        <div class="flex icon_box_shadow gap-[14px] p-4 md:pt-10 md:pl-10 md:pb-11 md:pr-16 md:gap-9 bg-secondary">
-                            <div class="bg_icon_two flex items-center h-[40px] p-[14px] md:py-5 md:px-4 rounded-[24px] md:w-[66px] md:h-[66px]">
+                    <div class="mt-5 sm:mt-0 sm:flex gap-7 md:gap-11">
+                        <div class="flex icon_box_shadow gap-[14px] p-4 lg:pt-10 lg:pl-10 lg:pb-11 lg:pr-16 lg:gap-9 bg-secondary">
+                            <div class="bg_icon_two flex shrink-0 items-center w-10 h-10 p-3 lg:py-5 lg:px-4 rounded-[24px] lg:w-[66px] lg:h-[66px]">
                                 <img src="img/Icon5.svg" alt="">
                             </div>
                             <div>
-                                <h1 class="font-semibold text-[18px] leading-5 md:text-[24px] md:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
-                                <p class="text-[#656464] text-[14px] md:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
+                                <h1 class="font-semibold text-[18px] leading-5 lg:text-[24px] lg:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
+                                <p class="text-[#656464] text-[14px] lg:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
                             </div>
                         </div>
-                        <div class="flex icon_box_shadow gap-[14px] p-4 md:pt-10 md:pl-10 md:pb-11 md:pr-16 md:gap-9 bg-secondary">
-                            <div class="bg_icon_three flex items-center h-[40px] p-[14px] md:py-5 md:px-4 rounded-[24px] md:w-[66px] md:h-[66px]">
+                        <div class="mt-5 sm:mt-0 flex icon_box_shadow gap-[14px] p-4 lg:pt-10 lg:pl-10 lg:pb-11 lg:pr-16 lg:gap-9 bg-secondary">
+                            <div class="bg_icon_three flex shrink-0 items-center w-10 h-10 p-3 lg:py-5 lg:px-4 rounded-[24px] lg:w-[66px] lg:h-[66px]">
                                 <img src="img/Icon6.svg" alt="">
                             </div>
                             <div>
-                                <h1 class="font-semibold text-[18px] leading-5 md:text-[24px] md:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
-                                <p class="text-[#656464] text-[14px] md:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
+                                <h1 class="font-semibold text-[18px] leading-5 lg:text-[24px] lg:leading-[26px] text-[#2F2C4A]">Members, Friends</h1>
+                                <p class="text-[#656464] text-[14px] lg:text-paragraph leading-[26px] pt-[14px]">Members, Friends Connection ( like followers ), Private Message</p>
                             </div>
                         </div>
                     </div>
@@ -275,69 +276,73 @@
     </div>
     <!-- our-community-section -->
     <!-- our_team_section -->
-    <div class="bg-secondary pb-12">
+    <div class="bg-secondary pt-12 sm:pt-0 pb-[70px] lg:py-[125px] xsm:px-4 sm:px-0">
         <div class="container">
-            <div class="pt-0 md:py-[84px] flex flex-col items-center">
-                <div class="text-center w-[480px]">
+            <div class="pt-0 flex flex-col items-center">
+                <div class="text-center w-full sm:w-[480px]">
                     <div>
-                        <h6 class="text-secondary leading-[18px]">Valuable Team</h6>
-                        <h1 class="sm:text-[28px] leading-7 text-primary md:leading-9 pt-[10px]">Our Active Members</h1>
-                        <p class="text-paragraph leading-7 px-12 md:px-0 pt-3 md:pt-[18px] pb-6 md:pb-10">when an unknown printer took a galley of type and meeting fari scrambled it.</p>
+                        <h6 class="text-xs sm:text-base md:text-[18px] text-secondary leading-[18px]">Valuable Team</h6>
+                        <h1 class="text-xl sm:text-[24px] md:text-[28px] leading-7 text-primary lg:text-[36px] lg:leading-9 pt-[10px]">Our Active Members</h1>
+                        <p class="text-sm sm:text-base text-paragraph leading-7 sm:px-12 lg:px-0 pt-2 lg:pt-[18px] pb-6 lg:pb-10">when an unknown printer took a galley of type and meeting fari scrambled it.</p>
                     </div>
-                    <div class="flex items-center justify-center h-12 md:h-[72px]">
+                    <div class="flex items-center justify-center h-10 sm:h-12 lg:h-[72px] w-full">
                         <div class="inline-flex bg-primary bg-opacity-[0.06] justify-around w-full h-full items-center rounded-[14px]" role="group">
                           <div>
-                            <button type="button" class="rounded-l inline-block py-[14px] px-12 md:py-[20px] text-[#2F2C4A] font-medium text-[14px] md:text-[16px] leading-4 tracking-[0.01em] hover:btn_hover hover:text-white focus:btn_hover focus:text-white focus:outline-none focus:ring-0 active:btn_hover active:text-white transition duration-150 ease-in-out">Newest</button>
+                            <button type="button" class="rounded-l inline-block py-[10px] px-9 sm:py-[14px] sm:px-12 lg:py-[20px] text-[#2F2C4A] font-medium text-[10px] sm:text-[14px] lg:text-[16px] leading-4 tracking-[0.01em] hover:btn_hover hover:text-white focus:btn_hover focus:text-white focus:outline-none focus:ring-0 active:btn_hover active:text-white">Newest</button>
                           </div>
                           <div>
-                            <button type="button" class="rounded-l inline-block py-[14px] px-12 md:py-[20px] text-[#2F2C4A] font-medium text-[14px] md:text-[16px] leading-4 tracking-[0.01em] hover:btn_hover hover:text-white focus:btn_hover focus:text-white focus:outline-none focus:ring-0 active:btn_hover active:text-white transition duration-150 ease-in-out">Popular</button>
+                            <button type="button" class="rounded-l inline-block py-[10px] px-9 sm:py-[14px] sm:px-12 lg:py-[20px] text-[#2F2C4A] text-[10px] font-medium sm:text-[14px] lg:text-[16px] leading-4 tracking-[0.01em] hover:btn_hover hover:text-white focus:btn_hover focus:text-white focus:outline-none focus:ring-0 active:btn_hover active:text-white">Popular</button>
                           </div>
                           <div class="">
-                            <button type="button" class="inline-block py-[14px] px-12 md:py-[20px] font-medium text-[14px] md:text-[16px] leading-4 tracking-[0.01em] btn_hover rounded-[14px] text-white hover:btn_hover hover:text-white focus:btn_hover focus:text-white focus:outline-none focus:ring-0 active:btn_hover active:text-white transition duration-150 ease-in-out">Active</button>
+                            <button type="button" class="inline-block py-[10px] px-9 sm:py-[14px] sm:px-12 lg:py-[20px] font-medium text-[10px] sm:text-[14px] md:text-[16px] leading-4 tracking-[0.01em] btn_hover rounded-[14px] text-white hover:btn_hover hover:text-white focus:btn_hover focus:text-white focus:outline-none focus:ring-0 active:btn_hover active:text-white">Active</button>
                           </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="pt-12 md:pt-[70px] flex gap-5 md:gap-[30px]">
-                        <div class="flex flex-col justify-center items-center member_card py-5 px-10 md:py-[30px] md:px-[40px] w-[220px] md:w-[270px]">
-                            <div class="relative">
-                                <img src="img/member_1.png" alt="" class="rounded-full out_line outline-offset-8 bg-[#E2EEFF]">
-                                <img src="img/Check.svg" alt="" class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 mt-[6px]">
+                    <div class="pt-12 lg:pt-[70px] md:flex gap-5 lg:gap-[30px] w-full">
+                        <div class="flex gap-6 sm:gap-10 md:gap-5">
+                            <div class="flex flex-col justify-center items-center member_card py-5 px-10 md:py-6 md:px-6 lg:py-[30px] lg:px-[40px] w-full sm:w-6/12 md:w-6/12 lg:w-6/12">
+                                <div class="relative">
+                                    <img src="img/member_1.png" alt="" class="rounded-full out_line outline-offset-8 bg-[#E2EEFF]">
+                                    <img src="img/Check.svg" alt="" class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 mt-[6px] sm:w-[18px] sm:h-[18px] lg:w-6 lg:h-6">
+                                </div>
+                                <div class="pt-6 lg:pt-10 text-center">
+                                    <h1 class="text-[18px] lg:text-[24px] lg:leading-[26px] text-[#2F2C4A] font-semibold">Fahim Rahman</h1>
+                                    <p class="sm:text-[14px] text-paragraph pt-2 lg:pt-3">@rahman</p>
+                                </div>
                             </div>
-                            <div class="pt-6 md:pt-10 text-center">
-                                <h1 class="text-[18px] md:text-[24px] leading-[26px] text-[#2F2C4A] font-semibold">Fahim Rahman</h1>
-                                <p class="sm:text-[14px] text-paragraph pt-2 md:pt-3">@rahman</p>
-                            </div>
-                        </div>
-                        <div class="flex flex-col justify-center items-center member_card_two py-5 px-10 md:py-[30px] md:px-[40px] w-[220px] md:w-[270px]">
-                            <div class="relative">
-                                <img src="img/member_2.png" alt="" class="w-full rounded-full out_line outline-offset-8 bg-[#E2EEFF]">
-                                <img src="img/Check.svg" alt="" class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 mt-[6px]">
-                            </div>
-                            <div class="pt-6 md:pt-10 text-center">
-                                <h1 class="text-[18px] md:text-[24px] leading-[26px] text-[#2F2C4A] font-semibold">Kazi Rahman</h1>
-                                <p class="sm:text-[14px] text-paragraph pt-2 md:pt-3">@Rahman</p>
-                            </div>
-                        </div>
-                        <div class="flex flex-col justify-center items-center member_card_two py-5 px-10 md:py-[30px] md:px-[40px] w-[220px] md:w-[270px]">
-                            <div class="relative">
-                                <img src="img/member_3.png" alt="" class="rounded-full out_line outline-offset-8 bg-[#E2EEFF]">
-                                <img src="img/Check.svg" alt="" class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 mt-[6px]">
-                            </div>
-                            <div class="pt-6 md:pt-10 text-center">
-                                <h1 class="text-[18px] md:text-[24px] leading-[26px] text-[#2F2C4A] font-semibold">Masterero Ali</h1>
-                                <p class="sm:text-[14px] text-paragraph pt-2 md:pt-3">@Master</p>
+                            <div class="flex flex-col justify-center items-center member_card_two py-5 px-10 md:py-6 md:px-6 lg:py-[30px] lg:px-[40px] w-full sm:w-6/12 mmd:w-6/12 lg:w-6/12">
+                                <div class="relative">
+                                    <img src="img/member_2.png" alt="" class="w-full rounded-full out_line outline-offset-8 bg-[#E2EEFF]">
+                                    <img src="img/Check.svg" alt="" class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 mt-[6px] sm:w-[18px] sm:h-[18px] lg:w-6 lg:h-6">
+                                </div>
+                                <div class="pt-6 lg:pt-10 text-center">
+                                    <h1 class="text-[18px] lg:text-[24px] leading-[26px] text-[#2F2C4A] font-semibold">Kazi Rahaman</h1>
+                                    <p class="sm:text-[14px] text-paragraph pt-2 lg:pt-3">@Rahman</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="hidden md:flex md:flex-col md:justify-center items-center member_card_two py-[30px] px-[40px] w-[220px] md:w-[270px]">
-                            <div class="relative">
-                                <img src="img/member_4.png" alt="" class="rounded-full out_line outline-offset-8 bg-[#E2EEFF]">
-                                <img src="img/Check.svg" alt="" class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 mt-[6px]">
+                        <div class="flex gap-6 sm:gap-10 md:gap-5 mt-6 md:mt-0">
+                            <div class="flex flex-col justify-center items-center member_card_two py-5 px-10 md:py-6 md:px-6 lg:py-[30px] lg:px-[40px] w-6/12 md:w-6/12 lg:w-6/12">
+                                <div class="relative">
+                                    <img src="img/member_3.png" alt="" class="rounded-full out_line outline-offset-8 bg-[#E2EEFF]">
+                                    <img src="img/Check.svg" alt="" class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 mt-[6px] sm:w-[18px] sm:h-[18px] lg:w-6 lg:h-6">
+                                </div>
+                                <div class="pt-6 lg:pt-10 text-center">
+                                    <h1 class="text-[18px] lg:text-[24px] leading-[26px] text-[#2F2C4A] font-semibold">Masterero Ali</h1>
+                                    <p class="sm:text-[14px] text-paragraph pt-2 lg:pt-3">@Master</p>
+                                </div>
                             </div>
-                            <div class="pt-10 text-center">
-                                <h1 class="text-[18px] md:text-[24px] leading-[26px] text-[#2F2C4A] font-semibold">Alia Karon</h1>
-                                <p class="sm:text-[14px] text-paragraph pt-2 md:pt-3">@Alia</p>
+                            <div class="flex flex-col justify-center items-center member_card_two py-5 px-10 md:py-6 md:px-6 lg:py-[30px] lg:px-[40px] w-6/12 md:w-6/12 lg:w-6/12">
+                                <div class="relative">
+                                    <img src="img/member_4.png" alt="" class="rounded-full out_line outline-offset-8 bg-[#E2EEFF]">
+                                    <img src="img/Check.svg" alt="" class="absolute -translate-x-1/2 -translate-y-1/2 left-1/2 mt-[6px] sm:w-[18px] sm:h-[18px] lg:w-6 lg:h-6">
+                                </div>
+                                <div class="pt-6 lg:pt-10 text-center">
+                                    <h1 class="text-[18px] lg:text-[24px] leading-[26px] text-[#2F2C4A] font-semibold">Masterero Ali</h1>
+                                    <p class="sm:text-[14px] text-paragraph pt-2 lg:pt-3">@Alia</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -348,24 +353,24 @@
     <!-- our_team_section -->
     <!-- app_section -->
     <div class="bg-[#E5F0FD]">
-        <div class="container">
-            <div class="items-center justify-center flex md:justify-between md:pt-11">
-                <div class="md:w-[350px] pb-[78px] md:pb-0 pt-[78px] w-10/12 text-center md:text-left">
+        <div class="container xsm:px-4 sm:px-0">
+            <div class="items-center sm:flex justify-between">
+                <div class="py-7 sm:py-0 lg:w-[350px] sm:w-6/12 w-full ">
                     <div class="">
-                        <h6 class="text-secondary">Get Our Application</h6>
-                        <h1 class="sm:text-[28px] text-primary pt-[10px]">You Can Easily Find <br> This App…!</h1>
-                        <p class=" text-paragraph leading-[26px] pt-[10px] md:pt-[18px] pr-2">I say chap that’s suing lavatory chip shop gosh off his smashing boot are you taking the piss posh loo brilliant.</p>
+                        <h6 class="text-xs sm:text-base md:text-[18px] text-secondary">Get Our Application</h6>
+                        <h1 class="text-xl sm:text-[24px] md:text-[28px] text-primary lg:text-[36px] pt-1 sm:pt-[10px]">You Can Easily Find <br> This App…!</h1>
+                        <p class=" text-paragraph sm:text-base text-sm leading-[26px] pt-[10px] md:pt-[18px] pr-2">I say chap that’s suing lavatory chip shop gosh off his smashing boot are you taking the piss posh loo brilliant.</p>
                     </div>
-                    <div class="flex pt-7 md:pt-9 gap-5 justify-center md:justify-start">
-                        <div>
+                    <div class="flex pt-3 sm:pt-7 lg:pt-9 gap-3 lg:gap-5 justify-start">
+                        <div class="w-[100px] h-[35px] lg:w-[144px] lg:h-[52px]">
                             <img src="img/applestore.png" alt="">
                         </div>
-                        <div>
+                        <div class="w-[100px] h-[35px] lg:w-[144px] lg:h-[52px]">
                             <img src="img/googleplay.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="flex sm:items-end sm:w-4/12 sm:hidden md:block">
+                <div class="hidden sm:flex sm:items-end w-full sm:w-5/12 mt-10 lg:mt-11">
                     <img src="img/Mask_group.png" alt="">
                 </div>
             </div>
@@ -374,47 +379,47 @@
     <!-- app_section -->
 
     <!-- news_section -->
-    <div class="py-[70px] md:py-[130px]">
+    <div class="xsm:px-4 sm:px-0 pt-[70px] pb-[70px] lg:py-[125px]">
         <div class="container">
             <div class="">
                 <div class="text-center">
-                    <h6 class="text-secondary">News</h6>
-                    <h1 class="sm:text-[28px] text-primary pt-[10px]">Latest News</h1>
+                    <h6 class="text-xs sm:text-base md:text-[18px] text-secondary">News</h6>
+                    <h1 class="text-xl sm:text-[24px] md:text-[28px] lg:text-[36px] text-primary md:pt-[10px]">Latest News</h1>
                 </div>
-                <div class="flex justify-between pt-14 md:pt-20">
-                    <div class="w-[47%] md:w-5/12">
-                        <div>
-                            <img src="img/news_image_1.png" alt="">
+                <div class="sm:flex justify-between pt-7 sm:pt-10 lg:pt-16">
+                    <div class="w-full sm:w-[31%]">
+                        <div class="w-full">
+                            <img src="img/news_image_1.png" alt="" class="w-full">
                         </div>
-                        <div class="flex gap-[14px] pt-[25px]">
-                            <div class="border-t-2 border-[#FFAF2E] w-[40px] mt-4"></div>
-                            <div class="w-[273px]">
-                                <h3 class="text-[18px] md:text-[20px] font-semibold text-[#2F2C4A] leading-[26px] pb-6">It Does Not Matter Hows Slowly go as Long</h3>
-                                <button class="sm:text-[14px] text-paragraph hover:text-[#217BF4]"><a href="#">Continue Reading <span class="text-[10px] leading-[10px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
+                        <div class="flex gap-2 lg:gap-[14px] pt-4 lg:pt-[25px]">
+                            <div class="border-t-2 border-[#FFAF2E] w-6 lg:w-[40px] mt-4"></div>
+                            <div class="w-full sm:w-[273px]">
+                                <h3 class="text-lg sm:text-[16px] lg:text-[20px] font-semibold text-[#2F2C4A] leading-[26px] pb-2 sm:pb-3 lg:pb-6">It Does Not Matter Hows Slowly go as Long</h3>
+                                <button class="text-xs sm:text-[14px] lg:text-base text-paragraph hover:text-[#217BF4]"><a href="#">Continue Reading <span class="text-[10px] leading-[10px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
                             </div>
                         </div>
                     </div>
-                    <div class="w-[47%] md:w-5/12">
-                        <div>
-                            <img src="img/news_image_2.png" alt="">
+                    <div class="w-full sm:w-[31%] py-8 sm:py-0">
+                        <div class="w-full">
+                            <img src="img/news_image_2.png" alt="" class="w-full">
                         </div>
-                        <div class="flex gap-[14px] pt-[25px]">
-                            <div class="border-t-2 border-[#FFAF2E] w-[40px] mt-4"></div>
-                            <div class="w-[273px]">
-                                <h3 class="text-[18px] md:text-[20px] font-semibold text-[#2F2C4A] leading-[26px] pb-6">Netbook Network Added New Photo Filter</h3>
-                                <button class="sm:text-[14px] text-paragraph hover:text-[#217BF4]"><a href="#">Continue Reading <span class="text-[10px] leading-[10px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
+                        <div class="flex gap-2 lg:gap-[14px] pt-4 lg:pt-[25px]">
+                            <div class="border-t-2 border-[#FFAF2E] w-6 lg:w-[40px] mt-4"></div>
+                            <div class="w-full sm:w-[273px]">
+                                <h3 class="text-lg sm:text-[16px] lg:text-[20px] font-semibold text-[#2F2C4A] leading-[26px] pb-2 sm:pb-3 lg:pb-6">Netbook Network Added New Photo Filter</h3>
+                                <button class="text-xs sm:text-[14px] lg:text-[16px] text-paragraph hover:text-[#217BF4]"><a href="#">Continue Reading <span class="text-[10px] leading-[10px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
                             </div>
                         </div>
                     </div>
-                    <div class="sm:hidden md:block">
-                        <div>
-                            <img src="img/news_image_3.png" alt="">
+                    <div class="w-full sm:w-[31%]">
+                        <div class="w-full">
+                            <img src="img/news_image_3.png" alt="" class="w-full">
                         </div>
-                        <div class="flex gap-[14px] pt-[25px]">
-                            <div class="border-t-2 border-[#FFAF2E] w-[40px] mt-4"></div>
-                            <div class="w-[273px]">
-                                <h3 class="text-[20px] font-semibold text-[#2F2C4A] leading-[26px] pb-6">We Optimised Netbooks Better Navigation</h3>
-                                <button class="text-paragraph hover:text-[#217BF4]"><a href="#">Continue Reading <span class="text-[10px] leading-[10px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
+                        <div class="flex gap-2 lg:gap-[14px] pt-4 lg:pt-[25px]">
+                            <div class="border-t-2 border-[#FFAF2E] w-6 lg:w-[40px] mt-4"></div>
+                            <div class="w-full sm:w-[273px]">
+                                <h3 class="text-lg sm:text-[16px] lg:text-[20px] font-semibold text-[#2F2C4A] leading-[26px] pb-2 sm:pb-3 lg:pb-6">We Optimized Netbooks Better Navigation</h3>
+                                <button class="text-xs sm:text-[14px] lg:text-base text-paragraph hover:text-[#217BF4]"><a href="#">Continue Reading <span class="text-[10px] leading-[10px]"><i class="fa-solid fa-arrow-right"></i></span></a></button>
                             </div>
                         </div>
                     </div>
@@ -424,92 +429,98 @@
     </div>
     <!-- news_section -->
     <!-- footer_area -->
-    <div class="bg-[#2B2B39] py-16 md:py-20">
-        <div class="container">
+    <div class="bg-[#2B2B39] py-16 md:py-[70px] lg:py-[125px]">
+        <div class="container xsm:px-4 sm:px-0">
             <div class="md:flex md:justify-between">
-                <div class="flex justify-between md:gap-[98px]">
-                    <div>
-                        <h3 class="text-white font-medium text-[18px] md:text-[20px] leading-[20px]">Home</h3>
-                        <div class="pt-[22px]">
-                            <ul class="text-[#E7E7E7] text-[14px] md:text-[16px] leading-8 md:leading-[48px] tracking-[0.0125em] font-normals">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Community</a></li>
-                                <li><a href="#">Events</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
+                <div class="sm:flex gap-20 md:gap-7 lg:gap-[70px] w-full md:w-[61%]">
+                    <div class="flex gap-[116px] sm:gap-0 sm:justify-between sm:w-3/6">
+                        <div>
+                            <h3 class="text-white font-medium text-[18px] lg:text-[20px] leading-[20px]">Home</h3>
+                            <div class="pt-3 sm:pt-[22px]">
+                                <ul class="text-[#E7E7E7] text-[14px] lg:text-[16px] leading-9 lg:leading-[48px] tracking-[0.0125em] font-normals">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Community</a></li>
+                                    <li><a href="#">Events</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-white font-medium text-[18px] lg:text-[20px] leading-[20px]">Resources</h3>
+                            <div class="pt-3 sm:pt-[22px]">
+                                <ul class="text-[#E7E7E7] text-[14px] lg:text-[16px] leading-9 lg:leading-[48px] tracking-[0.0125em] font-normals">
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Guides</a></li>
+                                    <li><a href="#">Help Center</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <h3 class="text-white font-medium text-[18px] md:text-[20px] leading-[20px]">Resources</h3>
-                        <div class="pt-[22px]">
-                            <ul class="text-[#E7E7E7] text-[14px] md:text-[16px] leading-8 md:leading-[48px] tracking-[0.0125em] font-normals">
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Guides</a></li>
-                                <li><a href="#">Help Center</a></li>
-                            </ul>
+                    <div class="flex gap-24 sm:gap-0 sm:justify-between md:gap-4 mt-10 sm:mt-0 sm:w-3/6">
+                        <div>
+                            <h3 class="text-white font-medium text-[18px] lg:text-[20px] leading-[20px]">Community</h3>
+                            <div class="pt-3 sm:pt-[22px]">
+                                <ul class="text-[#E7E7E7] text-[14px] lg:text-[16px] leading-9 lg:leading-[48px] tracking-[0.0125em] font-normals">
+                                    <li><a href="#">News Feed</a></li>
+                                    <li><a href="#">Profile</a></li>
+                                    <li><a href="#">Friends</a></li>
+                                    <li><a href="#">Forums</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <h3 class="text-white font-medium text-[18px] md:text-[20px] leading-[20px]">Community</h3>
-                        <div class="pt-[22px]">
-                            <ul class="text-[#E7E7E7] text-[14px] md:text-[16px] leading-8 md:leading-[48px] tracking-[0.0125em] font-normals">
-                                <li><a href="#">News Feed</a></li>
-                                <li><a href="#">Profile</a></li>
-                                <li><a href="#">Friends</a></li>
-                                <li><a href="#">Forums</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="text-white font-medium text-[18px] md:text-[20px] leading-[20px]">Main links</h3>
-                        <div class="pt-[22px]">
-                            <ul class="text-[#E7E7E7] text-[14px] md:text-[16px] leading-8 md:leading-[48px] tracking-[0.0125em] font-normals">
-                                <li><a href="#">Members</a></li>
-                                <li><a href="#">Activity </a></li>
-                                <li><a href="#">Groups</a></li>
-                                <li><a href="#">Private Group</a></li>
-                            </ul>
+                        <div>
+                            <h3 class="text-white font-medium text-[18px] lg:text-[20px] leading-[20px]">Main links</h3>
+                            <div class="pt-3 sm:pt-[22px]">
+                                <ul class="text-[#E7E7E7] text-[14px] lg:text-[16px] leading-9 lg:leading-[48px] tracking-[0.0125em] font-normals">
+                                    <li><a href="#">Members</a></li>
+                                    <li><a href="#">Activity </a></li>
+                                    <li><a href="#">Groups</a></li>
+                                    <li><a href="#">Private Group</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="pt-14 md:pt-0">
-                    <div class="w-9/12 md:w-[340px]">
-                        <h3 class="text-white text-[18px] md:text-[20px] leading-6 md:leading-8 font-medium">Subscribe Circle <br> Newsletter</h3>
-                        <p class="text-[#E7E7E7] text-[14px] md:text-[16px] leading-7 pt-6 md:pt-[18px] pr-12 md:pr-10 pb-4 md:pb-8">Subscribe to be the first one to know about updates. Enter your email</p>
+                <div class="pt-14 md:pt-0 sm:w-8/12 md:w-[33%]">
+                    <div class="w-[80%]">
                         <div>
-                            <input type="email" placeholder="Email Address" class="bg_transparent text-[#717179] text-[12px] md:text-[14px] leading-[12px] tracking-[0.0125em] py-[14px] md:py-[18px] pl-6 footer_form_border outline-none">
-                            <button class="text-[#2B2B39] text-[14px] md:text-[16px] leading-4 font-medium bg-secondary pt-[14px] md:pt-[19px] pb-[15px] md:pb-[20px] px-6 ml-[-22px] rounded-[12px]">Subscribe</button>
+                            <h3 class="text-white text-[18px] lg:text-[20px] leading-6 lg:leading-8 font-medium">Subscribe Circle <br> Newsletter</h3>
+                            <p class="text-[#E7E7E7] text-[14px] lg:text-[16px] leading-7 pt-2 lg:pt-[18px] pr-7 sm:pr-0 lg:pr-10 pb-2 lg:pb-8">Subscribe to be the first one to know about updates. Enter your email</p>
+                        </div>
+                        <div class="flex">
+                            <input type="email" placeholder="Email Address" class="bg_transparent text-[#717179] text-[12px] lg:text-[14px] leading-[12px] tracking-[0.0125em] py-[10px] lg:py-[18px] pl-5 footer_form_border outline-none">
+                            <button class="text-[#2B2B39] text-[14px] lg:text-[16px] leading-4 font-medium bg-secondary pt-[10px] lg:pt-[19px] pb-[10px] lg:pb-[20px] px-4 ml-[-22px] md:ml-[-72px] lg:ml-[-22px] rounded-[12px]">Subscribe</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="bg-[#20202D] py-[30px]">
-        <div class="container">
+    <div class="bg-[#20202D] py-4 md:py-[30px]">
+        <div class="container xsm:px-4 sm:px-0">
             <div class="flex justify-between items-center">
-                <div class="">
+                <div class="hidden sm:inline-block">
                     <p class="text-[12px] md:text-[14px] leading-[14px] text-[#F6F6F6]"><a href="#">Besnik Creative Agency.</a></p>
                 </div>
                 <div>
                     <div class="flex items-center gap-[6px]">
-                        <a href="#"><img src="img/brand_logo.svg" alt="" class="text-[30px]"></a>
+                        <a href="#"><img src="img/brand_logo.svg" alt="" class="text-xl sm:text-2xl md:text-[30px]"></a>
                         <a href="#"><h1 class="font-Inter font-[600] text-[20px] md:text-[24px] leading-6 text-white">Netbook</h1></a>
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    <div class="bg-secondary w-[24px] h-[24px] md:w-[36px] md:h-[36px] rounded-full flex items-center justify-center">
-                        <a href="#"><span class="w-[22px] h-[22px]"><i class="fa-brands fa-twitter"></i></span></a>
+                    <div class="bg-secondary w-[20px] h-[20px] sm:w-[24px] sm:h-[24px] md:w-[36px] md:h-[36px] rounded-full flex items-center justify-center">
+                        <a href="#"><span class="w-[12px] h-[12px] sm:w-[22px] sm:h-[22px]"><i class="fa-brands fa-twitter"></i></span></a>
                     </div>
-                    <div class="bg-secondary w-[24px] h-[24px] md:w-[36px] md:h-[36px] w-[36px] h-[36px] rounded-full flex items-center justify-center">
-                        <a href="#"><span class="w-[22px] h-[22px]"><i class="fa-brands fa-instagram"></i></span></a>
+                    <div class="bg-secondary w-[20px] h-[20px] sm:w-[24px] sm:h-[24px] md:w-[36px] md:h-[36px] rounded-full flex items-center justify-center">
+                        <a href="#"><span class="w-[12px] h-[12px] sm:w-[22px] sm:h-[22px]"><i class="fa-brands fa-instagram"></i></span></a>
                     </div>
-                    <div class="bg-secondary w-[24px] h-[24px] md:w-[36px] md:h-[36px] w-[36px] h-[36px] rounded-full flex items-center justify-center">
-                        <a href="#"><span class="w-[22px] h-[22px]"><i class="fa-brands fa-facebook-f"></i></span></a>
+                    <div class="bg-secondary w-[20px] h-[20px] sm:w-[24px] sm:h-[24px] md:w-[36px] md:h-[36px] rounded-full flex items-center justify-center">
+                        <a href="#"><span class="w-[12px] h-[12px] sm:w-[22px] sm:h-[22px]"><i class="fa-brands fa-facebook-f"></i></span></a>
                     </div>
-                    <div class="bg-secondary w-[24px] h-[24px] md:w-[36px] md:h-[36px] w-[36px] h-[36px] rounded-full flex items-center justify-center">
-                        <a href="#"><span class="w-[22px] h-[22px]"><i class="fa-brands fa-linkedin-in"></i></span></a>
+                    <div class="bg-secondary w-[20px] h-[20px] sm:w-[24px] sm:h-[24px] md:w-[36px] md:h-[36px] rounded-full flex items-center justify-center">
+                        <a href="#"><span class="w-[12px] h-[12px] sm:w-[22px] sm:h-[22px]"><i class="fa-brands fa-linkedin-in"></i></span></a>
                     </div>
                 </div>
             </div>
